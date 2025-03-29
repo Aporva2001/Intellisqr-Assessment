@@ -1,0 +1,48 @@
+
+.navbar {
+    background-color: rgb(43, 58, 103); 
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-button {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-button {
+    color: #e4eaf1; 
+    background-color: transparent;
+    border: 1px solid #e4eaf1;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: white; /* Slightly darker blue */
+    color: rgb(43, 58, 103)
+  }
+  
+  /* Login Button */
+  .login-btn {
+    background-color: rgb(43, 58, 103); /* Dark blue */
+    color: white;
+  }
+  .login-btn:active{
+    background-color: white;
+    color: rgb(43, 58, 103);
+  }
+  .login-btn:hover {
+    background-color: white; /* Slightly darker blue */
+    color: rgb(43, 58, 103)
+  }
+  

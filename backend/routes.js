@@ -11,10 +11,10 @@ router.get('/',(req, res, next)=>{
 router.get('/login', (req, res, next)=>{
     res.send("<h1>This is login page</h1>")
 });
+router.get('/', isAuth ,getHomeController)
 
 router.post('/signup', postSignUpController);
 router.post('/login', postLoginController);
 
-// router.get('/', isAuth ,getHomeController)
 
 module.exports= router;

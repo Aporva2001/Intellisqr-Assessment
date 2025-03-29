@@ -44,7 +44,8 @@ exports.postSignUpController = (req, res, next) => {
         })
         .then(result => {
             console.log("User created successfully", result);
-            res.redirect('/login');
+            res.json({ message: "User created successfully", userId: result._id });
+            // res.redirect('/login');
         })
         .catch(err => {
             console.log(err);

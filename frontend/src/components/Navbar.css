@@ -1,13 +1,12 @@
-/* Navbar Container */
+
 .navbar {
-    background-color: rgb(43, 58, 103); /* Clean background */
+    background-color: rgb(43, 58, 103); 
     padding: 15px 20px;
     display: flex;
-    justify-content: flex-end; /* Align buttons to the right */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    justify-content: flex-end; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Button Styles */
   .nav-links {
     display: flex;
     gap: 15px;
@@ -21,9 +20,8 @@
     transition: all 0.3s ease-in-out;
   }
   
-  /* Sign Up Button */
   .nav-button {
-    color: #e4eaf1; /* Dark gray */
+    color: #e4eaf1; 
     background-color: transparent;
     border: 1px solid #e4eaf1;
     cursor: pointer;
